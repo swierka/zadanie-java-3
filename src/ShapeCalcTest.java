@@ -19,7 +19,7 @@ public class ShapeCalcTest {
        double showRectangle = Rectangle.rectPerimeter(rectangle1);
 
         System.out.println(showSquare);
-        System.out.println(showCircle);
+      //  System.out.println(showCircle);
         System.out.println(showTriangle);
         System.out.println(showRectangle);
 

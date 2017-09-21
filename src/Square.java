@@ -1,8 +1,9 @@
 public class Square {
     double sideSquare;
 
-    void calcSquarePerimeter (){
+    void showSquarePerimeter (Square sq){
         ShapeCalculator sqA = new ShapeCalculator();
-        System.out.println(sqA);
+        double showSquarePerimeter=sqA.squareArea(sq);
+        System.out.println(showSquarePerimeter);
     }
 }

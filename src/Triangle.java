@@ -9,10 +9,9 @@ public class Triangle {
         this.side3Triangle = side3;
     }
 
-    void showTrianPer(){
+    void showTrianPer(Triangle trian){
         ShapeCalculator TrianPer = new ShapeCalculator();
-        System.out.println(TrianPer);
-
+        double showTrianPer = TrianPer.trianglePerimeter(trian);
+        System.out.println(showTrianPer);
     }
-
 }

@@ -1,3 +1,5 @@
+import org.w3c.dom.css.Rect;
+
 public class Rectangle {
     double side1Rectangle;
     double side2Rectangle;
@@ -7,9 +9,10 @@ public class Rectangle {
         this.side2Rectangle= side2Rectangle;
     }
 
-    void showPerimeterRectangle (){
+    void showPerimeterRectangle (Rectangle rect) {
         ShapeCalculator rectP = new ShapeCalculator();
-        System.out.println(rectP);
+        double showPerimeterRectangle = rectP.rectPerimeter(rect);
+        System.out.println(showPerimeterRectangle);
     }
 
 }
