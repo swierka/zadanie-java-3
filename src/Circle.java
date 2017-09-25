@@ -2,10 +2,9 @@ public class Circle {
     double radius;
     final double pi = 3.14159;
 
-    void showCircleArea(Circle cir) {
+    double showCircleArea() {
         ShapeCalculator circleArea = new ShapeCalculator();
-        double showCircleArea = circleArea.circleArea(cir);
-        System.out.println(showCircleArea);
+        return circleArea.circleArea(this);
     }
 
 }

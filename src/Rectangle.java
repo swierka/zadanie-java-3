@@ -9,10 +9,9 @@ public class Rectangle {
         this.side2Rectangle= side2Rectangle;
     }
 
-    void showPerimeterRectangle (Rectangle rect) {
+    double showPerimeterRectangle () {
         ShapeCalculator rectP = new ShapeCalculator();
-        double showPerimeterRectangle = rectP.rectPerimeter(rect);
-        System.out.println(showPerimeterRectangle);
+        return rectP.rectPerimeter(this);
     }
 
 }
